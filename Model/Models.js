@@ -8,7 +8,7 @@ var Schema = new Schema({
     },
     date:{
         required : true,
-        type : Date
+        type : String
     },
     agenda:{
         required : true,
