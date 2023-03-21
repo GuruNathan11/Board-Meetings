@@ -1,5 +1,4 @@
 var mongoose = require('mongoose');
-var DateOnly = require('mongoose-dateonly')(mongoose);
 var { Schema } = mongoose;
 
 var Schema = new Schema({
@@ -9,7 +8,7 @@ var Schema = new Schema({
     },
     date:{
         required : true,
-        type : DateOnly
+        type : Date
     },
     agenda:{
         required : true,
